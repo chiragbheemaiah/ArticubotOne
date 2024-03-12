@@ -1,0 +1,45 @@
+[0.033s] Invoking command in '/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /dev_ws/build/articubot_one -- -j8 -l8
+[0.215s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.286s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.641s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.688s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.816s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.821s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.822s] -- Added test 'lint_cmake' to check CMake code style
+[0.823s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[0.825s] -- Added test 'xmllint' to check XML markup files
+[0.828s] -- Configuring done
+[0.844s] -- Generating done
+[0.850s] -- Build files have been written to: /dev_ws/build/articubot_one
+[0.923s] Invoked command in '/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /dev_ws/build/articubot_one -- -j8 -l8
+[1.016s] Invoking command in '/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /dev_ws/build/articubot_one
+[1.031s] -- Install configuration: ""
+[1.031s] -- Execute custom install script
+[1.032s] -- Up-to-date symlink: /dev_ws/install/articubot_one/share/articubot_one/config/drive_bot.rviz
+[1.032s] -- Up-to-date symlink: /dev_ws/install/articubot_one/share/articubot_one/config/empty.yaml
+[1.033s] -- Up-to-date symlink: /dev_ws/install/articubot_one/share/articubot_one/config/view_bot.rviz
+[1.033s] -- Up-to-date symlink: /dev_ws/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[1.033s] -- Up-to-date symlink: /dev_ws/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[1.033s] -- Up-to-date symlink: /dev_ws/install/articubot_one/share/articubot_one/description/lidar.xacro
+[1.034s] -- Up-to-date symlink: /dev_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[1.034s] -- Up-to-date symlink: /dev_ws/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[1.034s] -- Up-to-date symlink: /dev_ws/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[1.034s] -- Up-to-date symlink: /dev_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[1.035s] -- Up-to-date symlink: /dev_ws/install/articubot_one/share/articubot_one/worlds/empty.world
+[1.035s] -- Up-to-date symlink: /dev_ws/install/articubot_one/share/articubot_one/worlds/obstacles.world
+[1.035s] -- Up-to-date symlink: /dev_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[1.035s] -- Up-to-date symlink: /dev_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[1.036s] -- Up-to-date symlink: /dev_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[1.036s] -- Up-to-date symlink: /dev_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[1.036s] -- Up-to-date symlink: /dev_ws/install/articubot_one/share/articubot_one/environment/path.sh
+[1.037s] -- Up-to-date symlink: /dev_ws/install/articubot_one/share/articubot_one/environment/path.dsv
+[1.037s] -- Up-to-date symlink: /dev_ws/install/articubot_one/share/articubot_one/local_setup.bash
+[1.037s] -- Up-to-date symlink: /dev_ws/install/articubot_one/share/articubot_one/local_setup.sh
+[1.038s] -- Up-to-date symlink: /dev_ws/install/articubot_one/share/articubot_one/local_setup.zsh
+[1.038s] -- Up-to-date symlink: /dev_ws/install/articubot_one/share/articubot_one/local_setup.dsv
+[1.038s] -- Symlinking: /dev_ws/install/articubot_one/share/articubot_one/package.dsv
+[1.053s] -- Up-to-date symlink: /dev_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[1.053s] -- Up-to-date symlink: /dev_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[1.053s] -- Up-to-date symlink: /dev_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[1.054s] -- Up-to-date symlink: /dev_ws/install/articubot_one/share/articubot_one/package.xml
+[1.058s] Invoked command in '/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /dev_ws/build/articubot_one

@@ -1,0 +1,54 @@
+[0.032s] Invoking command in '/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /dev_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/dev_ws/install/articubot_one
+[2.193s] -- The C compiler identification is GNU 9.4.0
+[4.387s] -- The CXX compiler identification is GNU 9.4.0
+[4.796s] -- Check for working C compiler: /usr/bin/cc
+[5.662s] -- Check for working C compiler: /usr/bin/cc -- works
+[5.754s] -- Detecting C compiler ABI info
+[6.043s] -- Detecting C compiler ABI info - done
+[6.061s] -- Detecting C compile features
+[6.062s] -- Detecting C compile features - done
+[6.067s] -- Check for working CXX compiler: /usr/bin/c++
+[6.410s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[6.412s] -- Detecting CXX compiler ABI info
+[7.022s] -- Detecting CXX compiler ABI info - done
+[7.036s] -- Detecting CXX compile features
+[7.037s] -- Detecting CXX compile features - done
+[7.169s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[7.271s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[7.271s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.863s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[9.464s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[10.131s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.143s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.146s] -- Added test 'lint_cmake' to check CMake code style
+[10.147s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[10.153s] -- Added test 'xmllint' to check XML markup files
+[10.160s] -- Configuring done
+[10.167s] -- Generating done
+[10.169s] -- Build files have been written to: /dev_ws/build/articubot_one
+[10.175s] Invoked command in '/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /dev_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/dev_ws/install/articubot_one
+[10.180s] Invoking command in '/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /dev_ws/build/articubot_one -- -j8 -l8
+[10.251s] Invoked command in '/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /dev_ws/build/articubot_one -- -j8 -l8
+[10.318s] Invoking command in '/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /dev_ws/build/articubot_one
+[10.336s] -- Install configuration: ""
+[10.336s] -- Execute custom install script
+[10.337s] -- Symlinking: /dev_ws/install/articubot_one/share/articubot_one/config/empty.yaml
+[10.353s] -- Symlinking: /dev_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[10.373s] -- Symlinking: /dev_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[10.390s] -- Symlinking: /dev_ws/install/articubot_one/share/articubot_one/worlds/empty.world
+[10.407s] -- Symlinking: /dev_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[10.424s] -- Symlinking: /dev_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[10.442s] -- Symlinking: /dev_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[10.468s] -- Symlinking: /dev_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[10.484s] -- Symlinking: /dev_ws/install/articubot_one/share/articubot_one/environment/path.sh
+[10.503s] -- Symlinking: /dev_ws/install/articubot_one/share/articubot_one/environment/path.dsv
+[10.519s] -- Symlinking: /dev_ws/install/articubot_one/share/articubot_one/local_setup.bash
+[10.537s] -- Symlinking: /dev_ws/install/articubot_one/share/articubot_one/local_setup.sh
+[10.556s] -- Symlinking: /dev_ws/install/articubot_one/share/articubot_one/local_setup.zsh
+[10.581s] -- Symlinking: /dev_ws/install/articubot_one/share/articubot_one/local_setup.dsv
+[10.599s] -- Symlinking: /dev_ws/install/articubot_one/share/articubot_one/package.dsv
+[10.617s] -- Symlinking: /dev_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[10.636s] -- Symlinking: /dev_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[10.652s] -- Symlinking: /dev_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[10.673s] -- Symlinking: /dev_ws/install/articubot_one/share/articubot_one/package.xml
+[10.694s] Invoked command in '/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /dev_ws/build/articubot_one

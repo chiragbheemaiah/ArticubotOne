@@ -1,0 +1,183 @@
+[0.000000] (-) TimerEvent: {}
+[0.000386] (articubot_one) JobQueued: {'identifier': 'articubot_one', 'dependencies': OrderedDict()}
+[0.000651] (articubot_one) JobStarted: {'identifier': 'articubot_one'}
+[0.031128] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'cmake'}
+[0.031594] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '/dev_ws/src/articubot_one', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/dev_ws/install/articubot_one'], 'cwd': '/dev_ws/build/articubot_one', 'env': OrderedDict([('HOSTNAME', 'ROS-Iron'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/019f4d1419fbc8219a181fab7892ebccf7ee29a2/bin/helpers/browser.sh'), ('HOME', '/home/vscode'), ('TERM_PROGRAM_VERSION', '1.87.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-39c13814-a22c-4010-a839-1989ebff3e47.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/019f4d1419fbc8219a181fab7892ebccf7ee29a2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-4826ae8a-768f-4780-800e-e4a1178e0670.sock'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-ecf7eca0-ab32-4b43-8dd5-8bc860d7bbc3.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/019f4d1419fbc8219a181fab7892ebccf7ee29a2/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-ecf7eca0-ab32-4b43-8dd5-8bc860d7bbc3.sock","/tmp/.X11-unix/X0","/home/vscode/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-6f0d29f1b3.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-ecf7eca0-ab32-4b43-8dd5-8bc860d7bbc3.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/dev_ws/build/articubot_one'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.099676] (-) TimerEvent: {}
+[0.200068] (-) TimerEvent: {}
+[0.300462] (-) TimerEvent: {}
+[0.401099] (-) TimerEvent: {}
+[0.501674] (-) TimerEvent: {}
+[0.602241] (-) TimerEvent: {}
+[0.702762] (-) TimerEvent: {}
+[0.803439] (-) TimerEvent: {}
+[0.904011] (-) TimerEvent: {}
+[1.004545] (-) TimerEvent: {}
+[1.105147] (-) TimerEvent: {}
+[1.205881] (-) TimerEvent: {}
+[1.306723] (-) TimerEvent: {}
+[1.407719] (-) TimerEvent: {}
+[1.508565] (-) TimerEvent: {}
+[1.609449] (-) TimerEvent: {}
+[1.709778] (-) TimerEvent: {}
+[1.810101] (-) TimerEvent: {}
+[1.910424] (-) TimerEvent: {}
+[2.010735] (-) TimerEvent: {}
+[2.111083] (-) TimerEvent: {}
+[2.193351] (articubot_one) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[2.211199] (-) TimerEvent: {}
+[2.311594] (-) TimerEvent: {}
+[2.411957] (-) TimerEvent: {}
+[2.512330] (-) TimerEvent: {}
+[2.612670] (-) TimerEvent: {}
+[2.713043] (-) TimerEvent: {}
+[2.813426] (-) TimerEvent: {}
+[2.913745] (-) TimerEvent: {}
+[3.014042] (-) TimerEvent: {}
+[3.114361] (-) TimerEvent: {}
+[3.214660] (-) TimerEvent: {}
+[3.314964] (-) TimerEvent: {}
+[3.415313] (-) TimerEvent: {}
+[3.515823] (-) TimerEvent: {}
+[3.616488] (-) TimerEvent: {}
+[3.717121] (-) TimerEvent: {}
+[3.817550] (-) TimerEvent: {}
+[3.917911] (-) TimerEvent: {}
+[4.018293] (-) TimerEvent: {}
+[4.118625] (-) TimerEvent: {}
+[4.218945] (-) TimerEvent: {}
+[4.319338] (-) TimerEvent: {}
+[4.387694] (articubot_one) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[4.419433] (-) TimerEvent: {}
+[4.519725] (-) TimerEvent: {}
+[4.620074] (-) TimerEvent: {}
+[4.720428] (-) TimerEvent: {}
+[4.796541] (articubot_one) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[4.820545] (-) TimerEvent: {}
+[4.920948] (-) TimerEvent: {}
+[5.021389] (-) TimerEvent: {}
+[5.121793] (-) TimerEvent: {}
+[5.222306] (-) TimerEvent: {}
+[5.322766] (-) TimerEvent: {}
+[5.423211] (-) TimerEvent: {}
+[5.523695] (-) TimerEvent: {}
+[5.624269] (-) TimerEvent: {}
+[5.662303] (articubot_one) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[5.724463] (-) TimerEvent: {}
+[5.754215] (articubot_one) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[5.824578] (-) TimerEvent: {}
+[5.924967] (-) TimerEvent: {}
+[6.025305] (-) TimerEvent: {}
+[6.043291] (articubot_one) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[6.061518] (articubot_one) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[6.062420] (articubot_one) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[6.068042] (articubot_one) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[6.125419] (-) TimerEvent: {}
+[6.225836] (-) TimerEvent: {}
+[6.326289] (-) TimerEvent: {}
+[6.410677] (articubot_one) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[6.412214] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[6.426411] (-) TimerEvent: {}
+[6.526882] (-) TimerEvent: {}
+[6.627465] (-) TimerEvent: {}
+[6.727851] (-) TimerEvent: {}
+[6.828172] (-) TimerEvent: {}
+[6.928535] (-) TimerEvent: {}
+[7.022363] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[7.028683] (-) TimerEvent: {}
+[7.036950] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[7.037565] (articubot_one) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[7.128813] (-) TimerEvent: {}
+[7.169250] (articubot_one) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[7.228924] (-) TimerEvent: {}
+[7.271499] (articubot_one) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[7.271745] (articubot_one) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[7.329040] (-) TimerEvent: {}
+[7.429402] (-) TimerEvent: {}
+[7.529785] (-) TimerEvent: {}
+[7.630090] (-) TimerEvent: {}
+[7.730456] (-) TimerEvent: {}
+[7.830844] (-) TimerEvent: {}
+[7.863479] (articubot_one) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[7.930970] (-) TimerEvent: {}
+[8.031346] (-) TimerEvent: {}
+[8.132211] (-) TimerEvent: {}
+[8.232681] (-) TimerEvent: {}
+[8.333106] (-) TimerEvent: {}
+[8.433599] (-) TimerEvent: {}
+[8.534107] (-) TimerEvent: {}
+[8.634618] (-) TimerEvent: {}
+[8.735136] (-) TimerEvent: {}
+[8.835658] (-) TimerEvent: {}
+[8.936165] (-) TimerEvent: {}
+[9.036658] (-) TimerEvent: {}
+[9.137186] (-) TimerEvent: {}
+[9.237680] (-) TimerEvent: {}
+[9.338153] (-) TimerEvent: {}
+[9.438594] (-) TimerEvent: {}
+[9.464357] (articubot_one) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[9.538734] (-) TimerEvent: {}
+[9.639202] (-) TimerEvent: {}
+[9.739585] (-) TimerEvent: {}
+[9.839941] (-) TimerEvent: {}
+[9.940384] (-) TimerEvent: {}
+[10.043480] (-) TimerEvent: {}
+[10.131010] (articubot_one) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[10.143589] (-) TimerEvent: {}
+[10.143935] (articubot_one) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[10.146124] (articubot_one) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[10.147442] (articubot_one) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[10.153813] (articubot_one) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[10.160696] (articubot_one) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.167456] (articubot_one) StdoutLine: {'line': b'-- Generating done\n'}
+[10.169127] (articubot_one) StdoutLine: {'line': b'-- Build files have been written to: /dev_ws/build/articubot_one\n'}
+[10.174934] (articubot_one) CommandEnded: {'returncode': 0}
+[10.175864] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'build'}
+[10.176896] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--build', '/dev_ws/build/articubot_one', '--', '-j8', '-l8'], 'cwd': '/dev_ws/build/articubot_one', 'env': OrderedDict([('HOSTNAME', 'ROS-Iron'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/019f4d1419fbc8219a181fab7892ebccf7ee29a2/bin/helpers/browser.sh'), ('HOME', '/home/vscode'), ('TERM_PROGRAM_VERSION', '1.87.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-39c13814-a22c-4010-a839-1989ebff3e47.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/019f4d1419fbc8219a181fab7892ebccf7ee29a2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-4826ae8a-768f-4780-800e-e4a1178e0670.sock'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-ecf7eca0-ab32-4b43-8dd5-8bc860d7bbc3.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/019f4d1419fbc8219a181fab7892ebccf7ee29a2/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-ecf7eca0-ab32-4b43-8dd5-8bc860d7bbc3.sock","/tmp/.X11-unix/X0","/home/vscode/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-6f0d29f1b3.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-ecf7eca0-ab32-4b43-8dd5-8bc860d7bbc3.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/dev_ws/build/articubot_one'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[10.243751] (-) TimerEvent: {}
+[10.251048] (articubot_one) CommandEnded: {'returncode': 0}
+[10.295739] (articubot_one) JobProgress: {'identifier': 'articubot_one', 'progress': 'install'}
+[10.316059] (articubot_one) Command: {'cmd': ['/usr/bin/cmake', '--install', '/dev_ws/build/articubot_one'], 'cwd': '/dev_ws/build/articubot_one', 'env': OrderedDict([('HOSTNAME', 'ROS-Iron'), ('GIT_ASKPASS', '/vscode/vscode-server/bin/linux-x64/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('BROWSER', '/vscode/vscode-server/bin/linux-x64/019f4d1419fbc8219a181fab7892ebccf7ee29a2/bin/helpers/browser.sh'), ('HOME', '/home/vscode'), ('TERM_PROGRAM_VERSION', '1.87.0'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-39c13814-a22c-4010-a839-1989ebff3e47.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/vscode/vscode-server/bin/linux-x64/019f4d1419fbc8219a181fab7892ebccf7ee29a2/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/vscode/vscode-server/bin/linux-x64/019f4d1419fbc8219a181fab7892ebccf7ee29a2/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('WAYLAND_DISPLAY', 'vscode-wayland-4826ae8a-768f-4780-800e-e4a1178e0670.sock'), ('ROS_DISTRO', 'foxy'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-ecf7eca0-ab32-4b43-8dd5-8bc860d7bbc3.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/vscode/vscode-server/bin/linux-x64/019f4d1419fbc8219a181fab7892ebccf7ee29a2/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('XDG_RUNTIME_DIR', '/tmp/user/1000'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-ecf7eca0-ab32-4b43-8dd5-8bc860d7bbc3.sock","/tmp/.X11-unix/X0","/home/vscode/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/user/1000/vscode-git-6f0d29f1b3.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-ecf7eca0-ab32-4b43-8dd5-8bc860d7bbc3.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('REMOTE_CONTAINERS_DISPLAY_SOCK', '/tmp/.X11-unix/X0'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/dev_ws/build/articubot_one'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[10.336590] (articubot_one) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.337082] (articubot_one) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[10.337884] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /dev_ws/install/articubot_one/share/articubot_one/config/empty.yaml\n'}
+[10.343852] (-) TimerEvent: {}
+[10.353931] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /dev_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro\n'}
+[10.373824] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /dev_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py\n'}
+[10.390200] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /dev_ws/install/articubot_one/share/articubot_one/worlds/empty.world\n'}
+[10.408076] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /dev_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one\n'}
+[10.424340] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /dev_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one\n'}
+[10.442426] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /dev_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh\n'}
+[10.443989] (-) TimerEvent: {}
+[10.468358] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /dev_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv\n'}
+[10.484968] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /dev_ws/install/articubot_one/share/articubot_one/environment/path.sh\n'}
+[10.503540] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /dev_ws/install/articubot_one/share/articubot_one/environment/path.dsv\n'}
+[10.519679] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /dev_ws/install/articubot_one/share/articubot_one/local_setup.bash\n'}
+[10.537802] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /dev_ws/install/articubot_one/share/articubot_one/local_setup.sh\n'}
+[10.544110] (-) TimerEvent: {}
+[10.556397] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /dev_ws/install/articubot_one/share/articubot_one/local_setup.zsh\n'}
+[10.581265] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /dev_ws/install/articubot_one/share/articubot_one/local_setup.dsv\n'}
+[10.599857] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /dev_ws/install/articubot_one/share/articubot_one/package.dsv\n'}
+[10.617258] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /dev_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one\n'}
+[10.636384] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /dev_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake\n'}
+[10.644229] (-) TimerEvent: {}
+[10.652787] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /dev_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake\n'}
+[10.674008] (articubot_one) StdoutLine: {'line': b'-- Symlinking: /dev_ws/install/articubot_one/share/articubot_one/package.xml\n'}
+[10.693510] (articubot_one) CommandEnded: {'returncode': 0}
+[10.744416] (-) TimerEvent: {}
+[10.844873] (-) TimerEvent: {}
+[10.945198] (-) TimerEvent: {}
+[11.045518] (-) TimerEvent: {}
+[11.145917] (-) TimerEvent: {}
+[11.246407] (-) TimerEvent: {}
+[11.346794] (-) TimerEvent: {}
+[11.447342] (-) TimerEvent: {}
+[11.547785] (-) TimerEvent: {}
+[11.648366] (-) TimerEvent: {}
+[11.748878] (-) TimerEvent: {}
+[11.849421] (-) TimerEvent: {}
+[11.949935] (-) TimerEvent: {}
+[12.050310] (-) TimerEvent: {}
+[12.152804] (-) TimerEvent: {}
+[12.169802] (articubot_one) JobEnded: {'identifier': 'articubot_one', 'rc': 0}
+[12.171914] (-) EventReactorShutdown: {}
